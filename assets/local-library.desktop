@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Local Library
+GenericName=PS Vita / PSP Game Installer
+Comment=Catálogo e instalación de juegos de PS Vita y PSP en una unidad extraíble
+Exec=local-library
+Icon=local-library
+Terminal=false
+Categories=Utility;Game;
+Keywords=PSVita;PSP;juegos;biblioteca;catálogo;
+StartupWMClass=local-library

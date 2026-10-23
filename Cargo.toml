@@ -1,0 +1,22 @@
+[package]
+name = "local-library"
+version = "0.1.0"
+edition = "2021"
+description = "Catálogo local de juegos de PS Vita y PSP e instalador a unidad extraíble"
+default-run = "local-library"
+
+[dependencies]
+eframe = { version = "0.37", default-features = false, features = [
+    "glow",
+    "default_fonts",
+    "wayland",
+    "x11",
+] }
+ratatui = "0.30"
+fs4 = "1.1"
+
+[dev-dependencies]
+tempfile = "3"
+
+[profile.release]
+opt-level = 2
